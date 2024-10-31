@@ -1,3 +1,3 @@
-module github.com/tuxdude/cablemodemutil
+module github.com/tuxgal/cablemodemutil
 
 go 1.17
