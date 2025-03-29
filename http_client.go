@@ -111,6 +111,7 @@ func (c *httpClient) sendPOST(action string, payload io.Reader, tok *token) (*[]
 			err,
 		)
 	}
+	//nolint:errcheck
 	defer resp.Body.Close()
 	if c.debug.DebugResp {
 		debugHTTPResponse(resp)
